@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intervalo de Dias</title>
+    
+
+<link rel="icon" href="https://raw.githubusercontent.com/souzaseven/Site2/Desafios/icon%20eu.ico" type="image/x-icon">
+<!--icone com meu rosto-->
+
+<!--souza system-->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8542251167876044"
+     crossorigin="anonymous"></script>
+
+<!--meajudatga-->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E7ZNTJSRYR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E7ZNTJSRYR');
+</script>
+<!--souza system-->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8542251167876044"
+     crossorigin="anonymous"></script>
+
+<!--meajudatga-->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S8EC5C2WTG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S8EC5C2WTG');
+</script>
+    <!-- Estilos da página -->
+   <link rel="stylesheet" href="style.css">
+
+<link rel="shortcut icon" href="./icon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Calculadora de <br> Intervalo de Dias</h1>
+
+        <!-- Campo de entrada para a primeira data -->
+        <label for="data-inicial">Data Inicial:</label>
+        <input type="date" id="data-inicial" oninput="calcularIntervalo()">
+        
+        <!-- Campo de entrada para a segunda data -->
+        <label for="data-final">Data Final:</label>
+        <input type="date" id="data-final" oninput="calcularIntervalo()">
+        
+        <!-- Div que exibirá o resultado -->
+        <div id="resultado" class="result"></div>
+
+        <!-- Botões -->
+        <div class="button-container">
+            <!-- Botão de limpar conteúdo, inicialmente escondido -->
+            <button class="clear-button hidden" id="limpar-btn" onclick="limparConteudo()">
+                <i class="fas fa-trash-alt"></i> Limpar Conteúdo
+            </button>
+        </div>
+    </div>
+
+   <script src="./script.js"></script>
+
+</body>
+</html>
